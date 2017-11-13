@@ -45,3 +45,12 @@ I want to be able to add tags to links
 As a Makers Student
 So I can narrow a search
 I want to be able to filter links via tags
+
+```
+
+| Objects       | Messages            |
+| ------------- |:-------------------:|
+| links,database| see a list          |
+| links         | add new             |
+| tags, links   | add tags to links   |
+| tags          | filter tags, search |
