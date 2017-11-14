@@ -1,0 +1,30 @@
+Tue, 14 Nov 2017 11:11:07 GMT  ~  info  ~  Logfile created
+ ~ (0.000792) SET backslash_quote = off
+ ~ (0.000169) SET standard_conforming_strings = on
+ ~ (0.000107) SET client_min_messages = warning
+ ~ (0.000125) SET datestyle = ISO
+ ~ (0.000073) SET client_min_messages = warning
+ ~ (0.000165) SET client_min_messages = warning
+ ~ (0.002152) SELECT current_schema()
+ ~ (0.009989) SELECT COUNT(*) FROM "information_schema"."tables" WHERE "table_type" = 'BASE TABLE' AND "table_schema" = 'public' AND "table_name" = 'links'
+ ~ (0.030364) CREATE TABLE "links" ("id" SERIAL NOT NULL, "name" VARCHAR(50), "url" VARCHAR(50), PRIMARY KEY("id"))
+ ~ (0.000558) RESET client_min_messages
+ ~ (0.000219) RESET client_min_messages
+ ~ (0.000211) SET backslash_quote = off
+ ~ (0.000122) SET standard_conforming_strings = on
+ ~ (0.000100) SET client_min_messages = warning
+ ~ (0.000108) SET datestyle = ISO
+ ~ (0.000096) SET client_min_messages = warning
+ ~ (0.000138) SET client_min_messages = warning
+ ~ (0.000429) SELECT current_schema()
+ ~ (0.002982) SELECT COUNT(*) FROM "information_schema"."tables" WHERE "table_type" = 'BASE TABLE' AND "table_schema" = 'public' AND "table_name" = 'links'
+ ~ (0.000115) RESET client_min_messages
+ ~ (0.000214) SET backslash_quote = off
+ ~ (0.000121) SET standard_conforming_strings = on
+ ~ (0.000103) SET client_min_messages = warning
+ ~ (0.000110) SET datestyle = ISO
+ ~ (0.006253) SELECT COUNT(*) FROM "information_schema"."columns" WHERE "table_schema" = 'public' AND "table_name" = 'links' AND "column_name" = 'id'
+ ~ (0.002445) SELECT COUNT(*) FROM "information_schema"."columns" WHERE "table_schema" = 'public' AND "table_name" = 'links' AND "column_name" = 'name'
+ ~ (0.002197) SELECT COUNT(*) FROM "information_schema"."columns" WHERE "table_schema" = 'public' AND "table_name" = 'links' AND "column_name" = 'url'
+ ~ (0.000129) RESET client_min_messages
+ ~ (0.001735) INSERT INTO "links" ("name", "url") VALUES ('Daniablog', 'https://hackernoon.com/@thatdania') RETURNING "id"
