@@ -5,6 +5,7 @@ gem 'capybara'
 gem 'data_mapper'
 gem 'database_cleaner', group: :test
 gem 'dm-postgres-adapter'
+gem 'pg'
 gem 'rspec'
 gem 'selenium-webdriver'
 gem 'sinatra'
