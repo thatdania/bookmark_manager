@@ -16,4 +16,5 @@ DataMapper::setup(:default, ENV['DATABASE URL'] || "postgres://localhost/bookmar
 DataMapper.finalize
 DataMapper.auto_upgrade!
 
+
 Link.raise_on_save_failure = true
