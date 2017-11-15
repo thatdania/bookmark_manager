@@ -9,12 +9,11 @@ class Link
   property(:url, String)
 end
 
-DataMapper::Logger.new(
-  File.dirname(File.absolute_path(__FILE__)) + '/log.txt', :debug)
+# DataMapper::Logger.new(
+#   File.dirname(File.absolute_path(__FILE__)) + '/log.txt', :debug)
 
 DataMapper::setup(:default, ENV['DATABASE URL'] || "postgres://localhost/bookmark_manager_#{ENV['RACK_ENV']}")
 DataMapper.finalize
 DataMapper.auto_upgrade!
-
 
 Link.raise_on_save_failure = true
