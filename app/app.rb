@@ -9,7 +9,7 @@ class App < Sinatra::Base
   end
 
   post '/links' do
-    Link.create(name: params[:Name], url: params[:URL])
+    Link.create(name: params[:Name], url: params[:URL], tag: params[:tag])
     redirect '/links'
   end
 

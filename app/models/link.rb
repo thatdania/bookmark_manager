@@ -7,6 +7,10 @@ class Link
   property(:id, Serial)
   property(:name, String)
   property(:url, String)
+  property(:tag, String)
+
+  has n, :tag, :through => :tag 
+
 end
 
 # DataMapper::Logger.new(
