@@ -9,7 +9,7 @@ class Link
   property(:url, String)
   property(:tag, String)
 
-  has n, :tag, :through => :tag 
+#  has n, :tag, :through => :tag 
 
 end
 
