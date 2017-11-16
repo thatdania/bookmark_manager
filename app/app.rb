@@ -32,5 +32,9 @@ class App < Sinatra::Base
     erb :filter_tags
   end
 
+  get '/register' do
+    erb :signup
+  end
+
   run! if app_file == $0
 end
