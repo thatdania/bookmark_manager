@@ -1,5 +1,3 @@
-require './app/models/link'
-
 feature ' User can add link to the database ' do
   scenario 'User wants to add a link' do
     visit('/links/new')

@@ -4,6 +4,7 @@ require 'capybara'
 require 'capybara/rspec'
 require 'database_cleaner'
 require 'rspec'
+require './app/datamapper_config'
 require File.join(File.dirname(File.absolute_path(__FILE__)),
                   '..', 'app', 'app.rb')
 
