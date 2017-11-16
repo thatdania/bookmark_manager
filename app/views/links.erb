@@ -11,7 +11,7 @@
 <tr>
 <td><%= link.name %></td>
 <td><%= link.url %></td>
-td><%= link.tags.map(&:name) %></td>
+<td><%= link.tags.map(&:name).join(', ') %></td>
 </tr>
 
   <% end %>
