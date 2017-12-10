@@ -48,6 +48,8 @@ So I can narrow a search
 I want to be able to filter links via tags
 
 ```
+Creating a domain mode out of user stories was our first priority to know what the program required in order to 
+accomplish the challenge's needs. It was a goal list for us to work on from. 
 
 | Objects       | Messages            |
 | ------------- |:-------------------:|
