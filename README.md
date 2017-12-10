@@ -1,6 +1,7 @@
 # Bookmark Manager
 
-This week, you will build a web app that stores web bookmarks in a database.
+This week, you will build a web app that stores web bookmarks in a database. This project was a work in progress across the week
+as we switched pairs everyday working on different people's projects
 
 ### Concepts and skills for the week
 
